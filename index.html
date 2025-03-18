@@ -6,8 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GeoBeats </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <script src="index.js"></script>
+    <div class="container">
+        <button id="new-rec">New Recommendation</button>
+        <div id="recomendation">
+            <img id="album-art" src="" alt="Album Art">
+            <h2 id="song-title"></h2>
+            <p id="artist"></p>
+            <p id="country"></p>
+           <div id="spotify-player"></div>
+        </div>
+        <div id="map"></div>
+</div>
+    <script src="script.js"></script>
   </body>
 </html>
