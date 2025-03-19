@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GeoBeats </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-        <button id="new-rec">New Recommendation</button>
-        <div id="recommendation">
-           
-            <div class="song-info">
-            <h2 id="song-title">Alas Rotas</h2>
-            <p id="artist">Lachinos</p>
-            
-      
-            <img id="album-art" src="album-art.png" alt="Album Art">
-            <div id="spotify-player"></div>
-            <div id="map"></div>
-        </div>
-           
-        </div>
-     
-       
-</div>
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GeoBeats </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Beat Map</h1>
+    <button id="new-rec">Next Spot</button>
+    <div id="recommendation">
+      <div id="spotify-player"></div>
+      <div id="map"></div>
+    </div>
+
+
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
