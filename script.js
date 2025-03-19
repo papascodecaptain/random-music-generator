@@ -1,31 +1,59 @@
 const songs = [
     {
-        spotifyId: "4HpFU6eMThgW6Cael5AwYy", // Spotify track ID for "La Vie En Rose"
-        country: "United States",
-        lat: 48.8566, // Latitude for Paris, France
-        lng: 2.3522   // Longitude for Paris, France
+        artistName: "Kabul Dreams",
+        song: "Air",
+        spotifyId: "0vKCTsLm7qkuWDHhkQqwkS",
+        genre: "Rock",
+        country: "Afghanistan",
+        city: "Kabul",
+        lat: 34.5553,
+        lng: 69.2075
     },
     {
-        spotifyId: "7C5Ria90yxc4a0REG1D23U", // Spotify track ID for "Sukiyaki"
-        country: "Australia",
-        lat: 35.6895, // Latitude for Tokyo, Japan
-        lng: 139.6917 // Longitude for Tokyo, Japan
+        artistName: "The Bloody Foreigners",
+        song: "Shoket e Mi",
+        spotifyId: "4OoPCuemoxANYKAVbAMI47",
+        genre: "Gypsy",
+        country: "Albania",
+        city: "Tirana",
+        lat: 41.3275,
+        lng: 19.8187
     },
     {
-        spotifyId: "5QYgMbHrZR0J6N0vH8Z1kF", // Spotify track ID for "Mas Que Nada"
-        country: "South Africa",
-        lat: -22.9068, // Latitude for Rio de Janeiro, Brazil
-        lng: -43.1729  // Longitude for Rio de Janeiro, Brazil
-    }, {
-        spotifyId: "4rDxUHTSSRzYmYgzYOSRCr", // Spotify track ID for "Mas Que Nada"
-        country: "Akbil,Alegria",
-        lat: -22.9068, // Latitude for Rio de Janeiro, Brazil
-        lng: -43.1729  // Longitude for Rio de Janeiro, Brazil
+        artistName: "Khaled",
+        song: "Aicha",
+        spotifyId: "0cYX51Hneb8qIOx0tHm7ng",
+        genre: "Folk",
+        country: "Algeria",
+        city: "Algiers",
+        lat: 36.7538,
+        lng: 3.0588
     },
-
-
-    // Add more songs here
+    {
+        artistName: "Susanne Georgi",
+        song: "La Teva Decisio",
+        spotifyId: "4JhfwIE45890EXAyEbpRPj",
+        genre: "Pop",
+        country: "Andorra",
+        city: "Andorra la Vella",
+        lat: 42.5063,
+        lng: 1.5218
+    },
+    {
+        artistName: "Aline Frazao",
+        song: "Matacedo",
+        spotifyId: "67wBtXxwXOh5pseldx92FT",
+        genre: "Alternative",
+        country: "Angola",
+        city: "Luanda",
+        lat: 8.8306,
+        lng: 13.2451
+    },
 ];
+
+
+// Additional songs go here 
+
 
 
 
