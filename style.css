@@ -10,15 +10,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 /* Container */
 .container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column ;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
-    padding: 200px;
+    height:100vh;
+    max-width: 350px;
 }
 
 /* Buttons */
